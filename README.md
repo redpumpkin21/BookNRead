@@ -7,25 +7,38 @@
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Is a book search website. Styled in the way of https://www.barnesandnoble.com/ which the porject is a fake barnes and noble but instead of buying books you find them, cause amazon books and barnes and noble have ways I think it can imporve it's search. 
 
 ## API
 
 Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
 
-
+With alex, casue I had no idea, had to create a new array from the the one the api gave me, due to it putting my image in the assets section of my contentful json. 
 ```
+//function with help from my boy Alex
+const fixData = data.items.map( (book, index) => {
+          return {
+            title: book.fields.title,
+            author: book.fields.author,
+            description : book.fields.description,
+            ranking: book.fields.ranking,
+            cover:  data.includes.Asset[index].fields.file.url
+
+          }
+    })
 {data: {} }
 ```
-
+[data](https://res.cloudinary.com/dx3a3l6k0/image/upload/v1627667570/Screen_Shot_2021-07-30_at_1.49.09_PM_r2w8zn.png)
 
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [desktop wireframe](https://res.cloudinary.com/dx3a3l6k0/image/upload/v1627589358/desktop_wirefram_2_fydblr.jpg)
+[desktop wireframe](https://res.cloudinary.com/dx3a3l6k0/image/upload/v1627589358/desktop_wirefram_2_fydblr.jpg)
+
 [mobile wireframe](https://res.cloudinary.com/dx3a3l6k0/image/upload/v1627589365/phone_wrieframe_2_h8wncj.jpg)
-- [add link to your react architecture]()
+ 
+[add link to your react architecture](https://docs.google.com/drawings/d/1-lyuWW1MqvBJNvNG6RQ3AIypMBYca-kl61t7l63Qry8/edit?usp=sharing)
 
 
 ### MVP/PostMVP - 5min
@@ -34,18 +47,22 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP EXAMPLE
 - 2 carousels
+	1. abover nav
+	2. below header
 - navbar 
 - hamburger
 - clickable icons
 - populate books
 - contact
 - jump location from hamburger
+- genre section icon
 
-- 
+
 
 #### PostMVP EXAMPLE
 
-- have a functioning international section
+- have a functioning genre section 
+-each genre componet is poppulated with books
 - have info section
 - shopping cart
 - functioning searchbar * don't have a lot of books*

@@ -1,24 +1,39 @@
 import logo from './logo.svg';
 import './App.css';
+import React, {useState, useEffect} from 'react'
 
 function App() {
   const apiKey='https://cdn.contentful.com/spaces/lqgw03zjuy3r/environments/master/entries?access_token=IxLPmtOyDSuJ7FVVftr9sAg5Qf0RdJcxogZ9nDZv1VE&content_type=book'
+  const [books, setBooks] = useState({})
+  const pickBook = async() =>{
+    const response = await fetch(apiKey)
+    const data = await response.json()
+    const fixData = data.items.map( (book, index) => {
+          return {
+            title: book.fields.title,
+            author: book.fields.author,
+            description : book.fields.description,
+            ranking: book.fields.ranking,
+            cover:  data.includes.Asset[index].fields.file.url
+
+          }
+    })
+    console.log(fixData)
+    setBooks(fixData)
+    }
+  
+  
+  useEffect(() => {
+    pickBook()
+}, [])
+
+
+  
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+        
     </div>
   );
 }
