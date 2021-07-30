@@ -116,6 +116,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 19hrs| hrs | hrs |
 
 ## PostMVP time
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
 | genres | L | 3hrs| hrs | hrs |
 | info section | L | 1hr| hrs | hrs |
 | shopping cart | L | 2.5hrs| hrs | hrs |
