@@ -79,19 +79,15 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Header | This will render the header include the nav  and search bar| 
 | Footer | This will render the header include the nav | 
 | Forms | this will render the conact|
-
 | trending | This will populate books based on ranking| 
 | kids | This will populate books based on if they are kids | 
 | upcoming | this will populate books that are not released yet | 
 | genres | This will populate all books|
-
 	| new | This will populate books based on release | 
 	| best| This will populate books based on ranking| 
 	| fiction | This will populate books based on the genre fiction that updaits the genre, which updates the 				main| 
-
 		| Western Fiction | This will render the header include the nav |
 		| International Fiction | This will render the header include the nav |
-
 	| sci-fi/fantasy | This will populate books based on the genre sci-fi/fantasy that updaits the          	genre, which updates the main | 
 	| history |  This will populate books based on the genre history that updaits the genre, which   	 		updates the main| 
 	| mystery |  This will populate books based on the genre mystery that updaits the genre, which updates 		the main|
