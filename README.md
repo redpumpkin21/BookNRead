@@ -108,9 +108,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | adding carousel 1 | H | 3hrs| hrs | hrs |
 | adding carousel 2| H | 3hrs| hrs | hrs |
 | navBar| H | 1hr|1hr | hrs |
-| footer | H | 1hrs| hr | hrs |
-| form | H | 1hrs| hrs | hrs |
-| hamburger| H | 1hrs| hrs | hrs |
+| footer | H | 1hr| hr | hrs |
+| form | H | 1hr| hrs | hrs |
+| hamburger| H | 1hr| hrs | hrs |
 | Populate books | H | 3hrs| hrs | hrs |
 | icons | H | 3hrs| hrs | hrs |
 | Total | H | 19hrs| hrs | hrs |
@@ -120,6 +120,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | info section | L | 1hr| hrs | hrs |
 | shopping cart | L | 2.5hrs| hrs | hrs |
 | functionins search bar | L | 2hrs| hrs | hrs |
+| Total | L | 8.5hrs| hrs | hrs |
 
 
 ## Additional Libraries
