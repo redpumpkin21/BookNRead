@@ -83,16 +83,16 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | kids | This will populate books based on if they are kids | 
 | upcoming | this will populate books that are not released yet | 
 | genres | This will populate all books|
-	| new | This will populate books based on release | 
-	| best| This will populate books based on ranking| 
-	| fiction | This will populate books based on the genre fiction that updaits the genre, which updates the 				main| 
-		| Western Fiction | This will render the header include the nav |
-		| International Fiction | This will render the header include the nav |
-	| sci-fi/fantasy | This will populate books based on the genre sci-fi/fantasy that updaits the          	genre, which updates the main | 
-	| history |  This will populate books based on the genre history that updaits the genre, which   	 		updates the main| 
-	| mystery |  This will populate books based on the genre mystery that updaits the genre, which updates 		the main|
-	| mystery | This will populate books based on the genre mystery that updaits the genre, which updates the 	main | 
-	| self-help | This will populate books based on the genre self-help that updaits the genre, which updates 	the	main|
+| new | This will populate books based on release | 
+| best| This will populate books based on ranking| 
+| fiction | This will populate books based on the genre fiction that updaits the genre, which updates the 				main| 
+| Western Fiction | This will render the header include the nav |
+| International Fiction | This will render the header include the nav |
+| sci-fi/fantasy | This will populate books based on the genre sci-fi/fantasy that updaits the          		genre, which updates the main | 
+| history |  This will populate books based on the genre history that updaits the genre, which   	 			updates the main| 
+| mystery |  This will populate books based on the genre mystery that updaits the genre, which updates 			the main|
+| mystery | This will populate books based on the genre mystery that updaits the genre, which updates the 		main | 
+| self-help | This will populate books based on the genre self-help that updaits the genre, which updates 		the	main|
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
