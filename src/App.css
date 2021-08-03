@@ -1,3 +1,12 @@
 button.mr-2.navbar-toggle{
   font-size: 30%;
 }
+
+.navbar{
+  background-color: #3E5962;
+}
+
+.Trends img{
+  width: 120px;
+  height: 179px;
+}

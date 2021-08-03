@@ -1,10 +1,32 @@
 import React from 'react'
 
-const Upcoming = () => {
+const Upcoming = (props) => {
+    const divStyle = {
+        display: 'flex',
+        flexDirection: 'row'
+    }
     return(
+        <>
         <div>
             Upcoming Books!
         </div>
+        
+         
+        <div className= 'Trends'style= {divStyle} >            
+            {props.trend.map((book, index) => {
+                if (book.released === false){
+                    return (
+                        <img src = {book.cover} alt ={book.title} key = {index}/>
+                    )
+                } else {
+                    return(
+                        null
+                    )
+                }})}
+        </div> 
+        {/* } */}
+        
+        </>
     )
 }
 export default Upcoming
