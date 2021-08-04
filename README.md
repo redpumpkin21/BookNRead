@@ -100,15 +100,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| hrs | hrs |
-| adding carousel 1 | H | 3hrs| hrs | hrs |
-| adding carousel 2| H | 3hrs| hrs | hrs |
+| Adding Form | H | 3hrs| hrs | 2hrs |
+| adding carousel 1 | H | 3hrs| 2hrs | hrs |
+| adding carousel 2| H | 3hrs| 2hrs | hrs |
 | navBar| H | 1hr|1hr | hrs |
-| footer | H | 1hr| hr | hrs |
-| form | H | 1hr| hrs | hrs |
-| hamburger| H | 1hr| hrs | hrs |
-| Populate books | H | 3hrs| hrs | hrs |
-| icons | H | 3hrs| hrs | hrs |
+| footer | H | 1hr| .5hr | hrs |
+| form | H | 1hr| 1hrs | hrs |
+| hamburger| H | 1hr| 3hrs | hrs |
+| Populate books | H | 3hrs| 3hrs | hrs |
+| icons | H | 3hrs| 1hrs | hrs |
 | Total | H | 19hrs| hrs | hrs |
 
 ## PostMVP time

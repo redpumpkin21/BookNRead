@@ -1,12 +1,16 @@
-import React from 'react'
-import { IoPowerSharp } from 'react-icons/io5'
+import React, {useState} from 'react'
+import HandleClick from './handleClick'
 //map over array/genres if genre is kids display it
 const Trending = (props) =>{
+  
+    
+
     const divStyle = {
         display: 'flex',
         flexDirection: 'row',
         overflow: 'scroll'
     }
+
  
     return (
         <>
@@ -18,23 +22,25 @@ const Trending = (props) =>{
             {/* // ranking < 7 show all books */}
             
             {props.trend.map((book, index) => {
-                //   const handleClick = () => {
-                //     return(
-                //         <>
-                //         {/* <span> Title: {props.trend.title}</span> */}
-                //         <span> Title: {book.title}</span>
-                //         <span>author: {book.author}</span>
-                //         <span>{book.cover}</span>
-                //         <span>Description: {book.description}</span>
-                //         </>
-            
-                //     )
-                // }
+                
+             
+                
                if (book.ranking < 7 && book.ranking > 0){ 
+                let  description = () => {
+                    console.log('it reads me clicking')
+                    
+                     alert( `${book.description}`)
+                        
+            
+                    }
+                
                 return (
                  <div key ={index} >
                     {/* handle click goes here */}
                     <img key = {index}  src= {book.cover} alt = {book.title} />
+                    <button  onClick = {description}className = 'title'>{book.author}</button>
+                    {/* <div>by: {book.author}</div> */}
+                    
                     
                  </div>
                 )}else{

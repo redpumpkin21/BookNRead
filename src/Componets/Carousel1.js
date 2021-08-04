@@ -3,6 +3,7 @@ import { UncontrolledCarousel } from 'reactstrap';
 
 const items = [
   {
+    src: 'booo',
     altText: 'save 15% or more',
     caption: 'Slide 1',
     header: 'Slide 1 Header',

@@ -3,7 +3,9 @@ import React from 'react'
 const Upcoming = (props) => {
     const divStyle = {
         display: 'flex',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        height: '179px',
+        width: '120px',
     }
     return(
         <>
@@ -16,7 +18,12 @@ const Upcoming = (props) => {
             {props.trend.map((book, index) => {
                 if (book.released === false){
                     return (
-                        <img src = {book.cover} alt ={book.title} key = {index}/>
+                        <>
+                        <img src = {book.cover} alt ={book.title} key = {index}
+                         style={{"pointerEvents": "all"}}
+                        />
+                        <button>{book.author}</button> 
+                        </>
                     )
                 } else {
                     return(
@@ -25,6 +32,8 @@ const Upcoming = (props) => {
                 }})}
         </div> 
         {/* } */}
+        <button className= 'author'>R. A. Salvatore</button> 
+        <button className= 'author'>Stephen Kin</button>
         
         </>
     )

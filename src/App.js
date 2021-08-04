@@ -34,7 +34,7 @@ function App() {
             cover: data.includes.Asset.filter((img) => {
               let id = img.sys.id
               
-              return id == book.fields.image.sys.id
+              return id === book.fields.image.sys.id
             })[0].fields.file.url
   
          } })
@@ -57,6 +57,9 @@ function App() {
          </Route>
          <Route>
             <Trending  exact path = '/Trending' trend ={books}/>
+         </Route>
+         <Route>
+            <Upcoming exact path = '/Upcoming' trend = {books} />
          </Route>
              
        </Switch>

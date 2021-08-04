@@ -10,3 +10,28 @@ button.mr-2.navbar-toggle{
   width: 120px;
   height: 179px;
 }
+
+.title{
+  width: 120px;
+  height: 10%;
+  font-size: 11px;
+}
+button.author{
+    display: flex;
+    width: 120px;
+    height: 20px;
+    font-size: 11px;
+  
+}
+
+div.carousel.slide a.carousel-control-prev{
+  display: none !important
+}
+
+div.carousel.slide a.carousel-control-next{
+  display: none !important
+}
+
+.boo .carousel-item img.w-100{
+  width: 10px,
+}
