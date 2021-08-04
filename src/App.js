@@ -55,12 +55,15 @@ function App() {
          <Route   path='/books'>
             <Books books = {books}/>
          </Route>
-         <Route>
-            <Trending  exact path = '/Trending' trend ={books}/>
+         {/* <Route path = '/Upcoming'>
+            <Upcoming   trend = {books} />
          </Route>
-         <Route>
-            <Upcoming exact path = '/Upcoming' trend = {books} />
-         </Route>
+         <Route path = '/Trending'>
+            <Trending    trend ={books}/>
+         </Route> */}
+         <Route path='/Upcoming' render={ (props) => <Upcoming trend={books} />} /> 
+         <Route path='/Trending' render={ (props) => <Trending trend={books} />} />
+         <Route path='/Kids' render={ (props) => <Kids trend={books} />} />
              
        </Switch>
      </main>: <div>Loading</div>}  

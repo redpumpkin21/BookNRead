@@ -23,7 +23,50 @@ button.author{
     font-size: 11px;
   
 }
-
+.body{
+  background-image: 'https://www.stylist.co.uk/images/app/uploads/2019/12/17162852/the-end-of-a-book-1268x845.jpeg?w=1200&h=1&fit=max&auto=format%2Ccompress';
+}
+.App{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 3em;
+  background-image: url('https://www.stylist.co.uk/images/app/uploads/2019/12/17162852/the-end-of-a-book-1268x845.jpeg?w=1200&h=1&fit=max&auto=format%2Ccompress');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.main{
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  gap: 2em
+}
+.Upcoming{
+  display: grid;
+  grid-template-columns: 9.3em 9.3em;
+  grid-template-rows: 11.2em 11.2em;
+   
+}
+.text{
+  color: white;
+}
+.Kids{
+  display: grid;
+  grid-template-columns: 9.3em 9.3em;
+  grid-template-rows: 11.2em 11.2em;
+   
+}
+.cover{
+  width: 120px;
+  height: 179px;
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+  grid-row: 1;
+}
+.bookauth{
+  width: 120px;
+  height: 10%;
+  font-size: 11px;
+}
 div.carousel.slide a.carousel-control-prev{
   display: none !important
 }
@@ -33,5 +76,7 @@ div.carousel.slide a.carousel-control-next{
 }
 
 .boo .carousel-item img.w-100{
-  width: 10px,
+  width: 15em !important;
+  height: 20em;
+  margin-left: 7em;
 }

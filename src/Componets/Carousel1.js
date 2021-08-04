@@ -3,16 +3,16 @@ import { UncontrolledCarousel } from 'reactstrap';
 
 const items = [
   {
-    src: 'booo',
+    
     altText: 'save 15% or more',
     caption: 'Slide 1',
     header: 'Slide 1 Header',
     key: '1'
   },
   {
-    src: null,
+    src: "https://wallpapercave.com/blank-white-wallpapers#google_vignette",
     altText: 'I do',
-    caption: 'Slide 2',
+    caption: 'I do',
     header: 'Slide 2 Header',
     key: '2'
   },
@@ -25,6 +25,15 @@ const items = [
   }
 ];
 
-const Carousel1 = () => <UncontrolledCarousel items={items} />;
+const Carousel1 = () =>{
+  document.addEventListener("DOMContentLoaded", function(event) {
+    document.querySelectorAll('img').forEach(function(img){
+     img.onerror = function(){this.style.display='none';};
+    })
+ });
+ return(
+<UncontrolledCarousel items={items} />
+ )
+} 
 
 export default Carousel1;

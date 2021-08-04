@@ -14,7 +14,7 @@ const Trending = (props) =>{
  
     return (
         <>
-        <div>
+        <div className = 'text'>
             Trending!
         </div>
         {/* {props.trend.ranking < 7 && > 0 ?  */}

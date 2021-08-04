@@ -38,7 +38,7 @@ const Home = (props) =>{
     
         
         return(
-          <div>
+          <div className ='main'>
             <Carousel2 trend = {props.books} />
             <Genres trend={props.books} /> 
             <Trending trend={props.books}/>

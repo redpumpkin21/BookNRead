@@ -2,15 +2,13 @@ import React from 'react'
 
 const Kids = (props) => {
     const divStyle = {
-        display: 'flex',
-        flexDirection: 'row',
         height: '179px',
         width: '120px',
     }
 
     return(
         <>
-        <div>Kid Books!</div>   
+        <div className = 'text'>Kid Books!</div>   
         <div className ='Kids' style= {divStyle}   id ='crap'>                       
             {props.trend.map((book, index) => {
                 //   const handleClick = () => {
@@ -25,12 +23,19 @@ const Kids = (props) => {
             
                 //     )
                 // }
-               if (book.genre === 'Kids'){                
+               if (book.genre === 'Kids'){    
+                let  description = () => {
+                    console.log('it reads me clicking')
+                    
+                     alert( `${book.description}`)
+                        
+            
+                    }            
                 return (
                 <>
                  
-                    <img src= {book.cover} alt = {book.title} key = {index}/>                    
-                    
+                    <img className = 'cover' src= {book.cover} alt = {book.title} key = {index}/>                    
+                    <button onClick = {description} className = 'bookauth'>{book.author}</button>
                  </>
                 )
             }else {
@@ -38,7 +43,7 @@ const Kids = (props) => {
             }            
         })}
         </div>     
-        <button></button>
+        
         </>
     )
 }
