@@ -4,7 +4,7 @@ import Genres from '../Componets/Genres'
 import Kids from '../Componets/Kids'
 import Upcoming from '../Componets/Upcoming'
 import Carousel2 from '../Componets/Carousel2'
-import Form from '../Componets/Forms'
+
 
 const Home = (props) =>{ 
      return(
@@ -14,7 +14,7 @@ const Home = (props) =>{
             <Trending trend={props.books}/>
             <Kids trend={props.books}/>          
             <Upcoming trend={props.books}/>
-            <Form />
+            
             </div>
         )
 }

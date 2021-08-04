@@ -152,17 +152,56 @@ gap:  2em;
   background-color: #212D31;
 }
 
+#newsletter{
+  text-align: center;
+  border-top: solid 10px black;
+}
 /* medi for tablet */
-
-/* media for the laptop/desktop */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 768px){ 
   .boo .carousel-item img.w-100{
     width: 25em !important;
     height: 35em;
     margin: auto;
   }
-  .Trends{
+ 
+  .Kids {
+    margin-left: 30%;
+  }
+  .Upcoming{
+    margin-left: 30%;
+  }
+}
+/* media for the laptop/desktop */
+@media only screen and (min-width: 1024px){
+  .boo .carousel-item img.w-100{
+    width: 10em !important;
+    height: 15em;
     margin: auto;
+  }
+  .Trends{
+    margin-left: 4%;
+  }
+  .Kids {
+    margin-left: 35%;
+  }
+  .Upcoming{
+    margin-left: 35%;
+  }
+  .book-image{
+    width: 30em;
+    height: 40em; 
+    margin: 10px auto;
+  }
+  .book-button{
+    width: 30em;
+  }
+  .navbar#navy{
+    display: flex;
+    flex-direction: column;
+
+  }
+  #align{
+    margin: 0;
   }
 
 }

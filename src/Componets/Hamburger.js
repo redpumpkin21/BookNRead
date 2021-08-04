@@ -10,7 +10,7 @@ const Hamburger = (props) => {
 
   return (
     <div>
-      <Navbar  dark expand='sm'>
+      <Navbar  dark expand='sm' id = "navy">
           <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <NavbarBrand href="/" className="mr-auto" id= 'align'>Book and Read</NavbarBrand>
         
