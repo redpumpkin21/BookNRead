@@ -58,13 +58,7 @@ function App() {
          <Route>
             <Trending  exact path = '/Trending' trend ={books}/>
          </Route>
-         <Route>
-            <Upcoming  path = '/Upcoming' trend ={books}/>
-         </Route>        
-         <Route>
-            <Kids  exact path = '/Kids' trend ={books}/>
-         </Route>
-         
+             
        </Switch>
      </main>: <div>Loading</div>}  
      <Form />
