@@ -10,7 +10,13 @@ button.mr-2.navbar-toggle{
   text-align: center;
   margin-right: 35%;
 }
-
+.Trends{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto auto;
+  overflow: scroll;
+  gap: 10px;
+}
 .Trends img{
   width: 120px;
   height: 179px;
@@ -144,4 +150,19 @@ gap:  2em;
   margin: 0px auto 2em auto;
   color:#FF00FF;
   background-color: #212D31;
+}
+
+/* medi for tablet */
+
+/* media for the laptop/desktop */
+@media only screen and (min-width: 1024px){
+  .boo .carousel-item img.w-100{
+    width: 25em !important;
+    height: 35em;
+    margin: auto;
+  }
+  .Trends{
+    margin: auto;
+  }
+
 }

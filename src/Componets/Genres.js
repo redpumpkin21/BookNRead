@@ -1,5 +1,4 @@
-import { findByLabelText } from '@testing-library/react'
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import Best from './Genre/Best'
 import Cooking from './Genre/Cooking'
 import Fiction from './Genre/Fiction'
@@ -8,7 +7,7 @@ import Mystery from './Genre/Mystery'
 import New from './Genre/New'
 import ScifiFan from './Genre/ScifiFan'
 import SelfHelp from './Genre/SelfHelp'
-import { FaBeer } from 'react-icons/fa';
+
 
 const Genres = (props) => {
     const divStyle = {

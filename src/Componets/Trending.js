@@ -1,24 +1,15 @@
-import React, {useState} from 'react'
-import HandleClick from './handleClick'
+import React from 'react'
+
 //map over array/genres if genre is kids display it
 const Trending = (props) =>{
-  
-    
-
-    const divStyle = {
-        display: 'flex',
-        flexDirection: 'row',
-        overflow: 'scroll'
-    }
-
- 
+          
     return (
         <>
         <div className = 'text'>
             What is Trending:
         </div>
         {/* {props.trend.ranking < 7 && > 0 ?  */}
-        <div className= 'Trends'style= {divStyle} > 
+        <div className= 'Trends'> 
             {/* // ranking < 7 show all books */}
             
             {props.trend.map((book, index) => {
@@ -35,7 +26,7 @@ const Trending = (props) =>{
                     }
                 
                 return (
-                 <div key ={index} >
+                 <div >
                     {/* handle click goes here */}
                     <img key = {index}  src= {book.cover} alt = {book.title} />
                     <button  onClick = {description}className = 'title'>{book.author}</button>

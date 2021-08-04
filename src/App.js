@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import React, {useState, useEffect} from 'react'
 import { Route, Switch } from "react-router";
@@ -55,12 +55,6 @@ function App() {
          <Route   path='/books'>
             <Books books = {books}/>
          </Route>
-         {/* <Route path = '/Upcoming'>
-            <Upcoming   trend = {books} />
-         </Route>
-         <Route path = '/Trending'>
-            <Trending    trend ={books}/>
-         </Route> */}
          <Route path='/Upcoming' render={ (props) => <Upcoming trend={books} />} /> 
          <Route path='/Trending' render={ (props) => <Trending trend={books} />} />
          <Route path='/Kids' render={ (props) => <Kids trend={books} />} />

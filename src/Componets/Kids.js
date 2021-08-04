@@ -10,19 +10,7 @@ const Kids = (props) => {
         <>
         <div className = 'text'>Kid Books!</div>   
         <div className ='Kids' style= {divStyle}   id ='crap'>                       
-            {props.trend.map((book, index) => {
-                //   const handleClick = () => {
-                //     return(
-                //         <>
-                //         {/* <span> Title: {props.trend.title}</span> */}
-                //         <span> Title: {book.title}</span>
-                //         <span>author: {book.author}</span>
-                //         <span>{book.cover}</span>
-                //         <span>Description: {book.description}</span>
-                //         </>
-            
-                //     )
-                // }
+            {props.trend.map((book, index) => {             
                if (book.genre === 'Kids'){    
                 let  description = () => {
                     console.log('it reads me clicking')
