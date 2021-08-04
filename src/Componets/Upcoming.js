@@ -12,7 +12,7 @@ const Upcoming = (props) => {
         </div>
         
          
-        <div className= 'Trends'style= {divStyle} >            
+        <div className= 'Upcoming'style= {divStyle} >            
             {props.trend.map((book, index) => {
                 if (book.released === false){
                     return (

@@ -4,6 +4,7 @@ import Genres from '../Componets/Genres'
 import Kids from '../Componets/Kids'
 import Upcoming from '../Componets/Upcoming'
 import Carousel2 from '../Componets/Carousel2'
+
 const Home = (props) =>{
    
     

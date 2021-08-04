@@ -8,6 +8,7 @@ import Mystery from './Genre/Mystery'
 import New from './Genre/New'
 import ScifiFan from './Genre/ScifiFan'
 import SelfHelp from './Genre/SelfHelp'
+import { FaBeer } from 'react-icons/fa';
 
 const Genres = (props) => {
     const divStyle = {
@@ -15,7 +16,7 @@ const Genres = (props) => {
         flexDirection: 'row',
         justifyContent: 'space-between',
         overflow: 'scroll',
-        width: '300px'
+        width: 'auto'
     }
     return(
         <div style={divStyle}>

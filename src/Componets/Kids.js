@@ -9,12 +9,14 @@ const Kids = (props) => {
     return(
         <>
         <div>Kid Books!</div>   
-        <div className= 'Trends'style= {divStyle} >                       
+        <div className= 'Kids'style= {divStyle} >                       
             {props.trend.map((book, index) => {
                if (book.genre === 'Kids'){                
                 return (
-                 <div >
-                    <img src= {book.cover} alt = {book.title} key = {index}/>                    
+                <div key = {index}>
+                 <div>
+                    <img src= {book.cover} alt = {book.title}/>                    
+                 </div>
                  </div>
                 )
             }else {

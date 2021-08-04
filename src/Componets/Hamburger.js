@@ -17,16 +17,16 @@ const Hamburger = (props) => {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="">Books</NavLink>
+              <NavLink href="/books">Books</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="">Trending</NavLink>
+              <NavLink href="/Trending">Trending</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="">Upcoming</NavLink>
+              <NavLink href="/Upcoming">Upcoming</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="">Kids</NavLink>
+              <NavLink href="/Kids">Kids</NavLink>
             </NavItem>
              {/* <NavItem>
               <NavLink href="">Components</NavLink>
