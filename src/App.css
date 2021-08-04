@@ -10,6 +10,12 @@ button.mr-2.navbar-toggle{
   width: 120px;
   height: 179px;
 }
+.Trends::-webkit-scrollbar {
+  display: none;
+}
+.Genres::-webkit-scrollbar {
+  display: none;
+}
 
 .title{
   width: 120px;

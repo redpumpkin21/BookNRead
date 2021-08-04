@@ -19,7 +19,7 @@ const Genres = (props) => {
         width: 'auto'
     }
     return(
-        <div style={divStyle}>
+        <div className= 'Genres' style={divStyle}>
             <Best />
             <Cooking />
             <Fiction />
