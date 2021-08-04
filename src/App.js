@@ -13,7 +13,7 @@ import Upcoming from './Componets/Upcoming'
 //import Main from './Pages/Main'
 // import Books from './Componets/Genres'
 import Home from './Pages/Home'
-import Form from './Pages/Forms'
+// import Form from './Componets/Forms'
 import Books from './Pages/Books'
 
 function App() {
@@ -67,7 +67,7 @@ function App() {
              
        </Switch>
      </main>: <div>Loading</div>}  
-     <Form />
+     {/* <Form /> */}
       <Footer/>
     </div>
   );

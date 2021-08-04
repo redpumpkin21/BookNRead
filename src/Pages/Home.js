@@ -4,6 +4,7 @@ import Genres from '../Componets/Genres'
 import Kids from '../Componets/Kids'
 import Upcoming from '../Componets/Upcoming'
 import Carousel2 from '../Componets/Carousel2'
+import Form from '../Componets/Forms'
 
 const Home = (props) =>{
   //  const apiKey='https://cdn.contentful.com/spaces/lqgw03zjuy3r/environments/master/entries?access_token=IxLPmtOyDSuJ7FVVftr9sAg5Qf0RdJcxogZ9nDZv1VE&content_type=book'
@@ -46,6 +47,7 @@ const Home = (props) =>{
             {/* <Trending trend = {descrip} handleClick = {description} getDescrip ={getDescrip}/> */}
             <Kids trend={props.books}/>
             <Upcoming trend={props.books}/>
+            <Form />
             </div>
         )
 }

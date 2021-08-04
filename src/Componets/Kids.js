@@ -35,7 +35,7 @@ const Kids = (props) => {
                 <>
                  
                     <img className = 'cover' src= {book.cover} alt = {book.title} key = {index}/>                    
-                    <button onClick = {description} className = 'bookauth'>{book.author}</button>
+                    <button  onClick = {description} className = 'bookauth'>{book.author}</button>
                  </>
                 )
             }else {

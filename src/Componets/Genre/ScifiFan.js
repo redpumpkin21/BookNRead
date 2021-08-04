@@ -1,10 +1,11 @@
 import React from 'react'
-import { IoBookSharp } from 'react-icons/io5';
+import { GiAncientSword } from "react-icons/gi";
 
 const ScifiFan = () => {
     return(
         <div>
-           <IoBookSharp /> Scifi Fantasy  
+           <GiAncientSword size = {50}/> 
+           <div>Scifi/Fantasy </div>
         </div>
     )
 }

@@ -1,10 +1,11 @@
 import React from 'react'
-import { FaBeer } from 'react-icons/fa';
+import { SiAwesomelists } from 'react-icons/si';
 
 const Best = () => {
     return(
         <div>
-            Best <FaBeer />
+            <SiAwesomelists size = {50}/> 
+            <div>Best </div>
         </div>
     )
 }

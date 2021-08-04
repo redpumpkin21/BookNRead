@@ -1,9 +1,10 @@
 import React from 'react'
-import { FaBeer } from 'react-icons/fa';
+import {GiWhiteBook } from 'react-icons/gi';
 const Fiction = () => {
     return(
         <div>
-             Fiction <FaBeer />
+              <GiWhiteBook size = {50}/> 
+              <div>Fiction</div>
         </div>
     )
 }

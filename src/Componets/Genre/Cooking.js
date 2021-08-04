@@ -1,9 +1,10 @@
 import React from 'react'
-import { FaBeer } from 'react-icons/fa';
+import { GiCookingPot } from 'react-icons/gi';
 const Cooking = () => {
     return(
         <div>
-          <FaBeer />  Cooking 
+          <GiCookingPot size = {50}/>  
+          <div>Cooking</div>
         </div>
     )
 }

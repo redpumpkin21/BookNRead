@@ -16,16 +16,17 @@ const Genres = (props) => {
         flexDirection: 'row',
         justifyContent: 'space-between',
         overflow: 'scroll',
-        width: 'auto'
+        width: 'auto',
+        gap: '15px'
     }
     return(
         <div className= 'Genres' style={divStyle}>
+            <New />
             <Best />
             <Cooking />
             <Fiction />
             <History />
-            <Mystery />
-            <New />
+            <Mystery />            
             <ScifiFan />
             <SelfHelp />
 

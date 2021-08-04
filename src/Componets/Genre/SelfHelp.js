@@ -1,10 +1,11 @@
 import React from 'react'
-import { IoBookSharp } from 'react-icons/io5';
+import { GiSelfLove } from 'react-icons/gi';
 
 const SelfHelp = () => {
     return(
         <div>
-            <IoBookSharp /> Self Help 
+            <GiSelfLove size = {50}/> 
+            <div>Self-Help </div>
         </div>
     )
 }

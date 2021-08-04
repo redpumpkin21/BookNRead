@@ -1,9 +1,10 @@
 import React from 'react'
-import { FaBeer } from 'react-icons/fa';
+import { BsQuestionCircle } from 'react-icons/bs';
 const Mystery = () => {
     return(
         <div>
-              Mystery <FaBeer />
+              <BsQuestionCircle size = {50}/> 
+              <div>Mystery </div>
         </div>
     )
 }

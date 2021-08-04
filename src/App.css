@@ -13,10 +13,21 @@ button.mr-2.navbar-toggle{
 .Trends::-webkit-scrollbar {
   display: none;
 }
+
+.Genres{
+  color:#FF00FF;
+  background-color: #212D31;
+}
 .Genres::-webkit-scrollbar {
   display: none;
 }
+.icon{
+  width: 59px;
+}
+.icon path{
+  width: 59px;
 
+}
 .title{
   width: 120px;
   height: 10%;
@@ -44,21 +55,26 @@ button.author{
 .main{
   display: grid;
   grid-template-rows: auto auto auto auto auto;
-  gap: 2em
-}
+  gap: 2em;
+ }
 .Upcoming{
   display: grid;
   grid-template-columns: 9.3em 9.3em;
   grid-template-rows: 11.2em 11.2em;
+  margin: 0px 15%
    
 }
 .text{
-  color: white;
+  color: #FF00FF;
+  text-align: center;
+  margin: 2em 0 0 0;
+  background-color: #212D31;
 }
 .Kids{
   display: grid;
   grid-template-columns: 9.3em 9.3em;
   grid-template-rows: 11.2em 11.2em;
+  margin: 0px 15%
    
 }
 .cover{
@@ -67,11 +83,20 @@ button.author{
   /* grid-column-start: 1;
   grid-column-end: 3; */
   grid-row: 1;
+  margin: 10px auto
 }
 .bookauth{
   width: 120px;
   height: 10%;
   font-size: 11px;
+  margin: 10px auto;
+  color:#FF00FF;
+  background-color: #212D31;
+}
+/* Carousel */
+.title{
+  color:#FF00FF;
+  background-color: #212D31;
 }
 div.carousel.slide a.carousel-control-prev{
   display: none !important
@@ -84,5 +109,34 @@ div.carousel.slide a.carousel-control-next{
 .boo .carousel-item img.w-100{
   width: 15em !important;
   height: 20em;
-  margin-left: 7em;
+  margin-left: 5.8em;
+}
+
+/* books page */
+/* .book-list{
+display: grid;
+gap:  2em;
+} */
+.books{
+  display: flex;
+  flex-direction: column;
+}
+.book-image{
+  width: 70%;
+   height: 70%; 
+  margin: 10px auto;
+}
+.book-title, .book-author{
+  text-align: center;
+   /* background-color: #212D31; */
+  color: #FF00FF;
+  margin: 0 10%;
+ 
+
+}
+.book-button{
+  width: 70%;
+  margin: 0px auto 2em auto;
+  color:#FF00FF;
+  background-color: #212D31;
 }

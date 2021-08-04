@@ -11,7 +11,7 @@ const divStyle = {
 const Books = (props) => {
     return(
         <>
-        <div>
+        <div className = 'book-list'>
         {props.books.map((book, index) => {
             // const handleClick = ()=> {
             //     return(
@@ -25,14 +25,14 @@ const Books = (props) => {
         
                 }
         return (
-            <div style = {divStyle}> 
-                <span>{book.title}</span>
-                <span>{book.author}</span>
-                <img src= {book.cover} alt={book.title}/>
-                <button onClick = {description} >Description
-                {/* <span style = {{"display": "none"}} onClick = {{"display": "block"}}>{book.description}</span> */}
-                </button>
-                <span></span>
+            <div className = 'books' > 
+                <div className = 'book-title'>{book.title}</div>
+                <div className ='book-author'>By: {book.author}</div>
+                <img className = 'book-image'src= {book.cover} alt={book.title}/>
+                <button className = 'book-button'onClick = {description} >
+                    Description
+                 </button>
+                
             </div>
         
         )})}

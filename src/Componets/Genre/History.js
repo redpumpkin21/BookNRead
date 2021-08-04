@@ -1,10 +1,11 @@
 import React from 'react'
-import { FaBeer } from 'react-icons/fa';
+import { GiAncientRuins} from 'react-icons/gi';
 
 const History = () => {
     return(
         <div>
-              History <FaBeer />
+               <GiAncientRuins size = {50}/> 
+               <div>History</div>
         </div>
     )
 }

@@ -15,7 +15,7 @@ const Trending = (props) =>{
     return (
         <>
         <div className = 'text'>
-            Trending!
+            What is Trending:
         </div>
         {/* {props.trend.ranking < 7 && > 0 ?  */}
         <div className= 'Trends'style= {divStyle} > 

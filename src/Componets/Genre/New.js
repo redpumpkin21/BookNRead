@@ -1,10 +1,11 @@
 import React from 'react'
-import { FaBeer } from 'react-icons/fa';
+import { GiNewBorn } from 'react-icons/gi';
 
 const New = () => {
     return(
         <div>
-             New <FaBeer />
+             <GiNewBorn size = {50}/> 
+             <div>New </div>
         </div>
     )
 }
