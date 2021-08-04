@@ -6,6 +6,11 @@ button.mr-2.navbar-toggle{
   background-color: #3E5962;
 }
 
+#align{
+  text-align: center;
+  margin-right: 35%;
+}
+
 .Trends img{
   width: 120px;
   height: 179px;

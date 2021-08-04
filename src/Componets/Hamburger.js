@@ -12,7 +12,7 @@ const Hamburger = (props) => {
     <div>
       <Navbar  dark expand='sm'>
           <NavbarToggler onClick={toggleNavbar} className="mr-2" />
-        <NavbarBrand href="/" className="mr-auto">Book and Read</NavbarBrand>
+        <NavbarBrand href="/" className="mr-auto" id= 'align'>Book and Read</NavbarBrand>
         
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
