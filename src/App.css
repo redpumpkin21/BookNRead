@@ -41,11 +41,7 @@ button.mr-2.navbar-toggle{
   width: 59px;
 
 }
-.title{
-  width: 120px;
-  height: 10%;
-  font-size: 11px;
-}
+
 button.author{
     display: flex;
     width: 120px;
@@ -72,7 +68,8 @@ button.author{
   display: grid;
   grid-template-columns: 9.3em 9.3em;
   grid-template-rows: 11.2em 11.2em;
-  margin: 0px 15% 10% 15%
+  margin: 0px 15% 10% 15%;
+  gap: 20px
    
 }
 .text{
@@ -90,30 +87,19 @@ button.author{
   gap: 20px
    
 }
-#Kids{
+#Kids, #Trending, #Upcoming{
   border: none;
   padding: 0;
   height: 179px;
   width: 120px;
 }
-.cover{
-  width: 100%;
-  height: 100%;
-  
-}
-.bookauth{
-  width: 120px;
-  height: 10%;
-  font-size: 11px;
-  margin: 10px auto;
-  color:#FF00FF;
-  background-color: #212D31;
-}
+
+
 /* Carousel */
-.title{
+/* .title{
   color:#FF00FF;
   background-color: #212D31;
-}
+} */
 div.carousel.slide a.carousel-control-prev{
   display: none !important
 }
@@ -128,11 +114,7 @@ div.carousel.slide a.carousel-control-next{
   margin-left: 5.8em;
 }
 
-/* books page */
-/* .book-list{
-display: grid;
-gap:  2em;
-} */
+
 .books{
   display: flex;
   flex-direction: column;
@@ -154,12 +136,7 @@ gap:  2em;
    height: 70%; 
   margin: 20px 4em;
   }
-.book-button{
-  width: 70%;
-  margin: 0px auto 2em auto;
-  color:#FF00FF;
-  background-color: #212D31;
-}
+
 .form-inline{
   margin-bottom: 10%;
 }
@@ -183,7 +160,7 @@ gap:  2em;
     margin-left: 30%;
     margin-bottom: 5%;
   }
-  #Kids{
+  #Kids, #Trending, #Upcoming{
     border: none;
     padding: 0;
   }
@@ -236,7 +213,7 @@ gap:  2em;
   .Kids {
     margin-left: 35%;
   }
-  #Kids{
+  #Kids, #Trending, #Upcoming{
     border: none;
     padding: 0;
   }

@@ -15,7 +15,7 @@ const Modaltrending = (props) => {
 
   return (
     <div>
-      <Button id = 'Kids'onClick={toggle}>
+      <Button id = 'Trending'onClick={toggle}>
         <img  className = 'cover'src ={props.book.cover} /> </Button>
       <Modal isOpen={modal} toggle={toggle} className= 'yay'>
         <ModalHeader className ='book-authitle' toggle={toggle}>

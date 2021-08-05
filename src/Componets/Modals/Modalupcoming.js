@@ -15,9 +15,9 @@ const Modalupcoming = (props) => {
 
   return (
     <div>
-      <Button id = 'Kids'onClick={toggle}>
-        <img  className = 'cover'src ={props.book.cover} /> </Button>
-      <Modal isOpen={modal} toggle={toggle} className= 'yay'>
+      <Button id = 'Upcoming'onClick={toggle}>
+        <img  className = 'book-image'src ={props.book.cover} /> </Button>
+      <Modal isOpen={modal} toggle={toggle}>
         <ModalHeader className ='book-authitle' toggle={toggle}>
         <div>{props.book.title}</div> 
         <div>by: {props.book.author}</div>
