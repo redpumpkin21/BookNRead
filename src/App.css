@@ -88,7 +88,8 @@ button.author{
   display: grid;
   grid-template-columns: 9.3em 9.3em;
   grid-template-rows: 11.2em 11.2em;
-  margin: 0px 15%
+  margin: 0px 15%;
+  margin-bottom: 10%;
    
 }
 .cover{
@@ -171,6 +172,7 @@ gap:  2em;
  
   .Kids {
     margin-left: 30%;
+    margin-bottom: 5%;
   }
   .Upcoming{
     margin-left: 30%;
@@ -194,9 +196,7 @@ gap:  2em;
   .form-inline{
     margin-bottom: 2%;
   }
-  .Kids{
-    margin-bottom: 10%;
-  }
+  
 }
 /* media for the laptop/desktop */
 @media only screen and (min-width: 1024px){
