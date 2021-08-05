@@ -100,20 +100,21 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| hrs | 2hrs |
-| adding carousel 1 | H | 3hrs| 2hrs | hrs |
-| adding carousel 2| H | 3hrs| 2hrs | hrs |
-| navBar| H | 1hr|1hr | hrs |
-| footer | H | 1hr| .5hr | hrs |
-| form | H | 1hr| 1hrs | hrs |
-| hamburger| H | 1hr| 3hrs | hrs |
-| Populate books | H | 3hrs| 3hrs | hrs |
-| icons | H | 3hrs| 1hrs | hrs |
-| Total | H | 19hrs| hrs | hrs |
+| Adding Form | H | 3hrs| 2hrs | 2hrs |
+| adding carousel 2| H | 3hrs| 2hrs | 2hrs |
+| navBar| H | 1hr|2hr | 2 hrs |
+| footer | H | 1hr| .5hr | .5hrs |
+| form | H | 1hr| 1hr | 1hr |
+| hamburger| H | 1hr| 3hrs | 2 hrs |
+| Populate books | H | 3hrs| 3hrs | 2 hrs |
+| icons | H | 3hrs| 2hrs | 2hrs |
+| show info on click | H | 3hrs| 15 hrs | 12hrs |
+| Total | H | 19hrs| hrs | 26.5hrs |
 
 ## PostMVP time
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
+| adding carousel 1 | H | 3hrs| hrs | hrs |
 | genres | L | 3hrs| hrs | hrs |
 | info section | L | 1hr| hrs | hrs |
 | shopping cart | L | 2.5hrs| hrs | hrs |
@@ -131,7 +132,6 @@ Time frames are also key in the development cycle.  You have limited time to cod
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+ <button  onClick = {description} className = 'bookauth'>{book.author}</button>
+ // this code made me finally have my description pop up when i click it.
 ```
