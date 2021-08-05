@@ -13,8 +13,7 @@ const Home = (props) =>{
             <Genres trend={props.books} /> 
             <Trending trend={props.books}/>
             <Kids trend={props.books}/>          
-            <Upcoming trend={props.books}/>
-            
+            <Upcoming trend={props.books}/>            
             </div>
         )
 }

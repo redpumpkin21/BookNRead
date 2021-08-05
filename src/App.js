@@ -7,14 +7,8 @@ import Header from './Pages/header'
 import Trending from './Componets/Trending'
 import Kids from './Componets/Kids'
 import Upcoming from './Componets/Upcoming'
-
 import Footer from './Componets/footer'
-
-// pages
-//import Main from './Pages/Main'
-// import Books from './Componets/Genres'
 import Home from './Pages/Home'
-// import Form from './Componets/Forms'
 import Books from './Pages/Books'
 
 function App() {
@@ -31,13 +25,10 @@ function App() {
             ranking: book.fields.ranking,
             released: book.fields.released,
             genre: book.fields.genre,
-            //cover:  data.includes.Asset[index].fields.file.url
             cover: data.includes.Asset.filter((img) => {
               let id = img.sys.id
-              
               return id === book.fields.image.sys.id
-            })[0].fields.file.url
-  
+            })[0].fields.file.url  
          } })          
           setBooks(fixData)
           }
@@ -58,12 +49,10 @@ function App() {
          <Route path='/Upcoming' render={ (props) => <Upcoming trend={books} />} /> 
          <Route path='/Trending' render={ (props) => <Trending trend={books} />} />
          <Route path='/Kids' render={ (props) => <Kids trend={books} />} />
-             
        </Switch>
      </main>: <div>Loading</div>}  
      <Footer />
      </div>
   );
 }
-
 export default App;

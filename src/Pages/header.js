@@ -5,11 +5,9 @@ import Search from '../Componets/Search'
 
 const Header = () => {
     return(
-        <nav>
-            
+        <nav>           
         <Hamburger /> 
-        <Search />
-        
+        <Search />        
         </nav>
     )
 }

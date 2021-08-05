@@ -10,9 +10,3 @@ const Best = () => {
     )
 }
 export default Best
-
-// class Question extends React.Component {
-//   render() {
-//     return <h3> Lets go for a <FaBeer />? </h3>
-//   }
-// }

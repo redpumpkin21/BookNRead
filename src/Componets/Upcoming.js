@@ -10,19 +10,12 @@ const Upcoming = (props) => {
         <>
         <div className = 'text'>
             Upcoming Books!
-        </div>
-        
-         
+        </div>     
         <div className= 'Upcoming'style= {divStyle} >            
             {props.trend.map((book, index) => {
                 if (book.released === false){
-                    let  description = () => {
-                        console.log('it reads me clicking')
-                        
-                         alert( `${book.description}`)
-                            
-                
-                        }
+                    let  description = () =>              
+                        alert( `${book.description}`)                     
                     return (
                         <>
                         <img src = {book.cover} alt ={book.title} key = {index}
@@ -36,10 +29,7 @@ const Upcoming = (props) => {
                         null
                     )
                 }})}
-        </div> 
-        {/* } */}
-    
-        
+        </div>   
         </>
     )
 }

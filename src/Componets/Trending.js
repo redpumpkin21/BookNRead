@@ -8,32 +8,18 @@ const Trending = (props) =>{
         <div className = 'text'>
             What is Trending:
         </div>
-        {/* {props.trend.ranking < 7 && > 0 ?  */}
-        <div className= 'Trends'> 
-            {/* // ranking < 7 show all books */}
-            
-            {props.trend.map((book, index) => {
-                
-             
-                
-               if (book.ranking < 7 && book.ranking > 0){ 
+        <div className= 'Trends'>                         
+            {props.trend.map((book, index) => {                       
+            if (book.ranking < 7 && book.ranking > 0){ 
                 let  description = () => {
-                    console.log('it reads me clicking')
-                    
-                     alert( `${book.description}`)
-                        
-            
-                    }
-                
+                    console.log('it reads me clicking')                    
+                     alert( `${book.description}`)           
+                    }                
                 return (
-                 <div >
-                    {/* handle click goes here */}
+                 <div className ='trendies' >                    
                     <img key = {index}  src= {book.cover} alt = {book.title} />
-                    <button  onClick = {description}className = 'title'>{book.author}</button>
-                    {/* <div>by: {book.author}</div> */}
-                    
-                    
-                 </div>
+                    <button  onClick = {description}className = 'title'>{book.author}</button>     
+                </div>
                 )}else{
                     return null
                 }

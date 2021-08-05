@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <>
         <Forms />
-        <div style ={divStyle}>Created by Chris Johnson, warning copyright infringments will be prostituted</div>
+        <div className= 'copyright' style ={divStyle}>Created by Chris Johnson, warning copyright infringments will be prostituted</div>
         </>
     )
 }
