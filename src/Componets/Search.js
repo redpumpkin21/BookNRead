@@ -3,7 +3,7 @@ import { FormGroup, Label, Input} from 'reactstrap';
 
 const Search = () =>{
 return(
-    <FormGroup>
+    <FormGroup className = 'formy'>
     <Label for="exampleSearch"></Label>
     <Input
       type="search"

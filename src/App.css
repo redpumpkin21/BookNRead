@@ -5,7 +5,9 @@ button.mr-2.navbar-toggle{
 .navbar{
   background-color: #3E5962;
 }
-
+.formy{
+  margin-bottom: 10%;
+}
 #align{
   text-align: center;
   margin-right: 35%;
@@ -55,9 +57,9 @@ button.author{
   background-image: 'https://www.stylist.co.uk/images/app/uploads/2019/12/17162852/the-end-of-a-book-1268x845.jpeg?w=1200&h=1&fit=max&auto=format%2Ccompress';
 }
 .App{
-  display: grid;
-  grid-template-rows: auto auto auto;
-  gap: 3em;
+  /* display: grid; */
+  /* grid-template-rows: auto auto auto;
+  gap: 3em; */
   background-image: url('https://www.stylist.co.uk/images/app/uploads/2019/12/17162852/the-end-of-a-book-1268x845.jpeg?w=1200&h=1&fit=max&auto=format%2Ccompress');
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,12 +69,13 @@ button.author{
   display: grid;
   grid-template-rows: auto auto auto auto auto;
   gap: 2em;
+  
  }
 .Upcoming{
   display: grid;
   grid-template-columns: 9.3em 9.3em;
   grid-template-rows: 11.2em 11.2em;
-  margin: 0px 15%
+  margin: 0px 15% 10% 15%
    
 }
 .text{
@@ -151,7 +154,9 @@ gap:  2em;
   color:#FF00FF;
   background-color: #212D31;
 }
-
+.form-inline{
+  margin-bottom: 10%;
+}
 #newsletter{
   text-align: center;
   border-top: solid 10px black;
@@ -169,6 +174,28 @@ gap:  2em;
   }
   .Upcoming{
     margin-left: 30%;
+  }
+  .book-image{
+    width: 25em;
+    height: 30em; 
+    margin: 10px auto;
+  }
+  .book-button{
+    width: 30em;
+  }
+  .navbar#navy{
+    display: flex;
+    flex-direction: column;
+
+  }
+  #align{
+    margin: 0;
+  }
+  .form-inline{
+    margin-bottom: 2%;
+  }
+  .Kids{
+    margin-bottom: 10%;
   }
 }
 /* media for the laptop/desktop */
@@ -202,6 +229,12 @@ gap:  2em;
   }
   #align{
     margin: 0;
+  }
+  .Kids{
+    margin-bottom: 10%;
+  }
+  .form-inline{
+    margin-bottom: 2%;
   }
 
 }

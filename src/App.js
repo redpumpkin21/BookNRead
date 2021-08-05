@@ -38,8 +38,7 @@ function App() {
               return id === book.fields.image.sys.id
             })[0].fields.file.url
   
-         } })
-          console.log(fixData)
+         } })          
           setBooks(fixData)
           }
     useEffect (() => {
