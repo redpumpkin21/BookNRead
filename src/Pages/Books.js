@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Modalbooks from '../Componets/Modal'
 
 
 const Books = (props) => {
@@ -12,13 +12,13 @@ const Books = (props) => {
            }
         return (
             <div className = 'books' > 
-                <div className = 'book-title'>{book.title}</div>
+                {/* <div className = 'book-title'>{book.title}</div>
                 <div className ='book-author'>By: {book.author}</div>
                 <img className = 'book-image'src= {book.cover} alt={book.title}/>
                 <button className = 'book-button'onClick = {description} >
                     Description
-                 </button>
-                
+                 </button> */}
+                <Modalbooks book ={book}/>
             </div>
         
         )})}
