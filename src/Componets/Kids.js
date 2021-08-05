@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Modalkids from './Modals/Modalkid'
 const Kids = (props) => {
     const divStyle = {
         height: '179px',
@@ -21,9 +21,9 @@ const Kids = (props) => {
                     }            
                 return (
                 <>
-                 
-                    <img className = 'cover' src= {book.cover} alt = {book.title} key = {index}/>                    
-                    <button  onClick = {description} className = 'bookauth'>{book.author}</button>
+                    <Modalkids book = {book}/>
+                    {/* <img className = 'cover' src= {book.cover} alt = {book.title} key = {index}/>                    
+                    <button  onClick = {description} className = 'bookauth'>{book.author}</button> */}
                  </>
                 )
             }else {

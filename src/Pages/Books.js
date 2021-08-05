@@ -1,5 +1,5 @@
 import React from 'react'
-import Modalbooks from '../Componets/Modal'
+import Modalbooks from '../Componets/Modals/Modal'
 
 
 const Books = (props) => {

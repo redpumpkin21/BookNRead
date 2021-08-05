@@ -1,6 +1,6 @@
 import React from 'react'
+import Modaltrending from './Modals/Modaltrending'
 
-//map over array/genres if genre is kids display it
 const Trending = (props) =>{
           
     return (
@@ -17,8 +17,7 @@ const Trending = (props) =>{
                     }                
                 return (
                  <div className ='trendies' >                    
-                    <img key = {index}  src= {book.cover} alt = {book.title} />
-                    <button  onClick = {description}className = 'title'>{book.author}</button>     
+                    <Modaltrending book ={book}/>  
                 </div>
                 )}else{
                     return null

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Modalupcoming from './Modals/Modalupcoming'
 const Upcoming = (props) => {
     const divStyle = {
        
@@ -18,10 +18,7 @@ const Upcoming = (props) => {
                         alert( `${book.description}`)                     
                     return (
                         <>
-                        <img src = {book.cover} alt ={book.title} key = {index}
-                         className = 'cover'
-                        />
-                        <button onClick = {description} className = 'bookauth'>{book.author}</button> 
+                        <Modalupcoming book = {book}/>
                         </>
                     )
                 } else {
