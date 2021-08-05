@@ -14,8 +14,7 @@ const Upcoming = (props) => {
         <div className= 'Upcoming'style= {divStyle} >            
             {props.trend.map((book, index) => {
                 if (book.released === false){
-                    let  description = () =>              
-                        alert( `${book.description}`)                     
+                                     
                     return (
                         <>
                         <Modalupcoming book = {book}/>

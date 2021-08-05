@@ -11,10 +11,7 @@ const Trending = (props) =>{
         <div className= 'Trends'>                         
             {props.trend.map((book, index) => {                       
             if (book.ranking < 7 && book.ranking > 0){ 
-                let  description = () => {
-                    console.log('it reads me clicking')                    
-                     alert( `${book.description}`)           
-                    }                
+                          
                 return (
                  <div className ='trendies' >                    
                     <Modaltrending book ={book}/>  
